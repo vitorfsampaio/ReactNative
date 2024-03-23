@@ -1,4 +1,4 @@
-package com.orgshooks
+package com.ogrshooks
 
 import android.app.Application
 import com.facebook.react.PackageList
