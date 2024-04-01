@@ -19,7 +19,7 @@ export default function App() {
     SplashScreen.hideAsync();
   }
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       <StatusBar />
       <Cesta {...mock} />
     </SafeAreaView>
