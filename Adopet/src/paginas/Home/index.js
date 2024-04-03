@@ -1,8 +1,8 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
 import PaginaBase from '../PaginaBase';
+export default function Home({ navigation }) {
 
-export default function Home({navigation}) {
     return (
         <View style={styles.container}>
             <PaginaBase>
@@ -15,14 +15,14 @@ export default function Home({navigation}) {
                         <Text style={styles.textoBotao}>Login</Text>
                     </TouchableOpacity>
 
-                    <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Cadastro')}>
+                    <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Cadastro')} >
                         <Text style={styles.textoBotao}>Cadastro</Text>
                     </TouchableOpacity>
 
                     <Image source={require('../../assets/CachorroEGato.png')} style={styles.imagem}></Image>
                 </View>
-            </PaginaBase>
-        </View>
+            </PaginaBase >
+        </View >
     );
 }
 
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
         shadowRadius: 4,
         elevation: 4, // Adiciona a elevação para sombra no Android
         padding: 10, // Pode ser ajustado conforme necessário
-        width: 240,
+        width: 200,
         alignSelf: 'center',
     },
     textoBotao: {

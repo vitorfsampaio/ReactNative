@@ -50,7 +50,7 @@ const pets = [
         caracteristicas: 'Ativo e educado',
         localidade: 'Duque de Caxias (RJ)',
         descricao: {
-            informacoes: ['Se dá bem com outros gatos', 'Gosta de dormir e brincar'],
+            informacoes: ['Se dá bem com outros cães', 'Gosta de dormir e brincar'],
             resumo: 'Sirius é um cachorro muito carinhoso e brincalhão. Ele é muito companheiro e vai fazer muita companhia para a família que adotá-la.',
             fotos: [sirius1, sirius2],
         }
@@ -63,7 +63,7 @@ const pets = [
         caracteristicas: 'Calma e carinhosa',
         localidade: 'São Gonçalo (RJ)',
         descricao: {
-            informacoes: ['Se dá bem com outros gatos', 'Gosta de dormir e brincar'],
+            informacoes: ['Não gosta de outros gatos', 'Gosta de dormir e brincar'],
             resumo: 'Fiona é uma cachorra muito carinhosa e brincalhona. Ela é muito companheira e vai fazer muita companhia para a família que adotá-la.',
             fotos: [fiona1, fiona2],
         }
